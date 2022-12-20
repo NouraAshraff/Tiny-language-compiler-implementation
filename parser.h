@@ -27,9 +27,9 @@ using namespace std;
 
 
 // Used for debugging only /////////////////////////////////////////////////////////
+#define MAX_CHILDREN 3
 extern const char* ExprDataTypeStr[];
 extern const char* NodeKindStr[];
-
 
 enum NodeKind{
     IF_NODE, REPEAT_NODE, ASSIGN_NODE, READ_NODE, WRITE_NODE,
@@ -37,7 +37,6 @@ enum NodeKind{
 };
 enum ExprDataType {VOID, INTEGER, BOOLEAN};
 
-#define MAX_CHILDREN 3
 struct TreeNode
 {
     TreeNode* child[MAX_CHILDREN];
@@ -102,8 +101,5 @@ TreeNode* Parse(CompilerInfo* pci);
 
 void PrintTree(TreeNode* node, int sh=0);
 void DestroyTree(TreeNode* node);
-
-
-
 
 #endif //CODE_GENERATION_PARSER_H

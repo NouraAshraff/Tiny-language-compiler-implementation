@@ -3,18 +3,13 @@
 #include <cstdio>
 #include <cstring>
 #include <string>
-
-
+#define MAX_LINE_LENGTH 10000
 
 bool Equals(const char* a, const char* b);
-
 bool StartsWith(const char* a, const char* b);
-
 void Copy(char* a, const char* b, int n=0);
-
 void AllocateAndCopy(char** a, const char* b);
 
-#define MAX_LINE_LENGTH 10000
 
 struct InFile
 {
@@ -27,13 +22,9 @@ struct InFile
     ~InFile();
 
     void SkipSpaces();
-
     bool SkipUpto(const char* str);
-
     bool GetNewLine();
-
     char* GetNextTokenStr();
-
     void Advance(int num);
 };
 
@@ -95,8 +86,6 @@ const Token reserved_words[]=
         };
 const int num_reserved_words=sizeof(reserved_words)/sizeof(reserved_words[0]);
 
-// if there is tokens like < <=, sort them such that sub-tokens come last: <= <
-// the closing comment should come immediately after opening comment
 const Token symbolic_tokens[]=
         {
                 Token(ASSIGN, ":="),

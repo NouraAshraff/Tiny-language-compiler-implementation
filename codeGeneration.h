@@ -1,5 +1,6 @@
 #ifndef CODE_GENERATION_CODEGENERATION_H
 #define CODE_GENERATION_CODEGENERATION_H
+
 #include "parser.h"
 void readSim(const char*x);
 int expSim(TreeNode* node);
