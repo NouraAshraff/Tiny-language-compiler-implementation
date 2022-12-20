@@ -1,0 +1,11 @@
+# ninja log v5
+4	749	6931948225980011	CMakeFiles/code_generation.dir/scanner.cpp.obj	84d9aef67df7f390
+24	1046	6931948228916086	CMakeFiles/code_generation.dir/main.cpp.obj	bfc8c462b4a84c81
+0	14	0	clean	e9f4a11b48867f19
+1046	1257	6931948230935924	code_generation.exe	bc591c7edbb51a31
+12	908	6931948227521963	CMakeFiles/code_generation.dir/parser.cpp.obj	8d350c4e3c7302cb
+1	347	6931949544804235	build.ninja	dd8b419035750941
+18	733	6931948225780533	CMakeFiles/code_generation.dir/analyzer.cpp.obj	dfe0f6f0f38286d4
+9	500	6931951721588937	CMakeFiles/code_generation.dir/codeGeneration.cpp.obj	8d126d8e58c9966d
+4	336	6931951985265285	CMakeFiles/code_generation.dir/main.cpp.obj	bfc8c462b4a84c81
+336	596	6931951987794241	code_generation.exe	6ed0da2c47bfa10a

@@ -1,0 +1,3 @@
+D:/NOURA.FCAI/4th year/compilers/assignments/code generation/cmake-build-debug/CMakeFiles/code_generation.dir
+D:/NOURA.FCAI/4th year/compilers/assignments/code generation/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/NOURA.FCAI/4th year/compilers/assignments/code generation/cmake-build-debug/CMakeFiles/rebuild_cache.dir
